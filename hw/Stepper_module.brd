@@ -1177,70 +1177,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
-<package name="C1206">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
-<package name="C0805">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
-<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
-<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
-<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-<package name="R0603">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
-<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
-<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-</package>
 <package name="PANASONIC_D">
 <description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D&lt;/b&gt;</description>
 <wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
@@ -1277,94 +1213,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <vertex x="-2.15" y="-2.15"/>
 <vertex x="-2.15" y="2.1"/>
 </polygon>
-</package>
-</packages>
-</library>
-<library name="led">
-<packages>
-<package name="CHIPLED_0805">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
-<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
-<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="samtec">
-<packages>
-<package name="FTSH-105-TH">
-<pad name="1" x="-2.54" y="0" drill="0.7112" diameter="1.016"/>
-<pad name="2" x="-2.54" y="1.27" drill="0.7112" diameter="1.016"/>
-<pad name="3" x="-1.27" y="0" drill="0.7112" diameter="1.016"/>
-<pad name="4" x="-1.27" y="1.27" drill="0.7112" diameter="1.016"/>
-<pad name="5" x="0" y="0" drill="0.7112" diameter="1.016"/>
-<pad name="6" x="0" y="1.27" drill="0.7112" diameter="1.016"/>
-<pad name="7" x="1.27" y="0" drill="0.7112" diameter="1.016"/>
-<pad name="8" x="1.27" y="1.27" drill="0.7112" diameter="1.016"/>
-<pad name="9" x="2.54" y="0" drill="0.7112" diameter="1.016"/>
-<pad name="10" x="2.54" y="1.27" drill="0.7112" diameter="1.016"/>
-<wire x1="-5.08" y1="2.54" x2="5.715" y2="2.54" width="0.127" layer="21"/>
-<wire x1="5.715" y1="2.54" x2="5.715" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="2.54" width="0.127" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="OPL Eagle Library">
-<packages>
-<package name="4P-2.0">
-<description>3470130P1</description>
-<wire x1="-5" y1="1" x2="-5" y2="-1" width="0.127" layer="21"/>
-<wire x1="5" y1="1.5" x2="5" y2="-1.5" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="-5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.2" x2="-5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-5" y1="-2.8" x2="-3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.8" x2="-3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-3.2" y1="-2.2" x2="3.2" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.2" x2="3.2" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="3.2" y1="-2.8" x2="5" y2="-2.8" width="0.254" layer="21"/>
-<wire x1="5" y1="-2.8" x2="5" y2="-2.2" width="0.254" layer="21"/>
-<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="5" y1="2.2" x2="5" y2="-2.8" width="0.254" layer="39"/>
-<wire x1="-5" y1="-2.8" x2="-5" y2="2.2" width="0.254" layer="39"/>
-<wire x1="-4.953" y1="-2.794" x2="-3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.794" x2="-3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-3.175" y1="-2.159" x2="-1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="-1.778" y1="-4.191" x2="1.778" y2="-4.191" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-4.191" x2="1.778" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="1.778" y1="-2.159" x2="3.175" y2="-2.159" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.159" x2="3.175" y2="-2.794" width="0.254" layer="39"/>
-<wire x1="3.175" y1="-2.794" x2="4.953" y2="-2.794" width="0.254" layer="39"/>
-<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
-<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
-<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
-<text x="-1.905" y="2.54" size="0.889" layer="25" font="vector" ratio="11">&gt;NAME</text>
-<text x="-1.905" y="0" size="0.635" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -4770,6 +4618,158 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 </package>
 </packages>
 </library>
+<library name="r2p_connector">
+<packages>
+<package name="SAMTEC_FTSH-105-TH">
+<wire x1="-5" y1="2.5" x2="5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="5" y1="2.5" x2="5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.25" x2="-5" y2="-1.25" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1.25" x2="-5" y2="2.5" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.7112" diameter="1.016"/>
+<pad name="2" x="-2.54" y="1.27" drill="0.7112" diameter="1.016"/>
+<pad name="3" x="-1.27" y="0" drill="0.7112" diameter="1.016"/>
+<pad name="4" x="-1.27" y="1.27" drill="0.7112" diameter="1.016"/>
+<pad name="5" x="0" y="0" drill="0.7112" diameter="1.016"/>
+<pad name="6" x="0" y="1.27" drill="0.7112" diameter="1.016"/>
+<pad name="7" x="1.27" y="0" drill="0.7112" diameter="1.016"/>
+<pad name="8" x="1.27" y="1.27" drill="0.7112" diameter="1.016"/>
+<pad name="9" x="2.54" y="0" drill="0.7112" diameter="1.016"/>
+<pad name="10" x="2.54" y="1.27" drill="0.7112" diameter="1.016"/>
+<circle x="-4" y="0" radius="0.5" width="0.2" layer="51"/>
+<circle x="-4" y="0" radius="0.5" width="0.2" layer="48"/>
+</package>
+<package name="OPL-EAGLE-LIBRARY_4P-2.0">
+<description>3470130P1</description>
+<wire x1="-5" y1="2.2" x2="-5" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="-5" y1="-2.2" x2="-3.175" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="5" y1="-2.2" x2="5" y2="2.2" width="0.254" layer="51"/>
+<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="51"/>
+<wire x1="-5" y1="-2.2" x2="-5" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="-5" y1="-2.8" x2="-3.175" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-2.8" x2="-3.175" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-2.2" x2="3.175" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-2.2" x2="5" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-2.2" x2="3.175" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-2.8" x2="5" y2="-2.8" width="0.254" layer="51"/>
+<wire x1="5" y1="-2.8" x2="5" y2="-2.2" width="0.254" layer="51"/>
+<wire x1="-5" y1="2.2" x2="5" y2="2.2" width="0.254" layer="39"/>
+<wire x1="5" y1="2.2" x2="5" y2="-2.8" width="0.254" layer="39"/>
+<wire x1="-5" y1="-2.8" x2="-5" y2="2.2" width="0.254" layer="39"/>
+<wire x1="-4.953" y1="-2.794" x2="-3.175" y2="-2.794" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-2.794" x2="-3.175" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="-3.175" y1="-2.159" x2="-1.778" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="-4.191" width="0.254" layer="39"/>
+<wire x1="-1.778" y1="-4.191" x2="1.778" y2="-4.191" width="0.254" layer="39"/>
+<wire x1="1.778" y1="-4.191" x2="1.778" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="1.778" y1="-2.159" x2="3.175" y2="-2.159" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-2.159" x2="3.175" y2="-2.794" width="0.254" layer="39"/>
+<wire x1="3.175" y1="-2.794" x2="4.953" y2="-2.794" width="0.254" layer="51"/>
+<pad name="1" x="-3" y="0" drill="0.8" diameter="1.27" shape="square"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="3" x="1" y="0" drill="0.8" diameter="1.27"/>
+<pad name="4" x="3" y="0" drill="0.8" diameter="1.27"/>
+<text x="-0.005" y="0.04" size="1" layer="25" font="vector" ratio="11" align="center">&gt;NAME</text>
+<text x="-0.105" y="-1.5" size="1" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="r2p_rcl">
+<packages>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.55" y1="0.65" x2="1.55" y2="0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="0.65" x2="1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="1.55" y1="-0.65" x2="-1.55" y2="-0.65" width="0.05" layer="39"/>
+<wire x1="-1.55" y1="-0.65" x2="-1.55" y2="0.65" width="0.05" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
+<package name="C0805">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-1.8" y1="0.9" x2="1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.9" x2="-1.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.9" x2="-1.8" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="0.9" x2="1.8" y2="-0.9" width="0.05" layer="39"/>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.3" y1="1" x2="2.3" y2="1" width="0.05" layer="39"/>
+<wire x1="2.3" y1="-1" x2="-2.3" y2="-1" width="0.05" layer="39"/>
+<wire x1="-2.3" y1="-1" x2="-2.3" y2="1" width="0.05" layer="39"/>
+<wire x1="2.3" y1="1" x2="2.3" y2="-1" width="0.05" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
+<package name="R0603">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.5" y1="0.7" x2="1.5" y2="0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="0.7" x2="1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="1.5" y1="-0.7" x2="-1.5" y2="-0.7" width="0.05" layer="39"/>
+<wire x1="-1.5" y1="-0.7" x2="-1.5" y2="0.7" width="0.05" layer="39"/>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-1.5" size="1" layer="27" font="vector" align="center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="r2p_led">
+<packages>
+<package name="CHIPLED_0805">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
+<wire x1="-0.35" y1="0.925" x2="0.35" y2="0.925" width="0.1016" layer="51" curve="162.394521"/>
+<wire x1="-0.35" y1="-0.925" x2="0.35" y2="-0.925" width="0.1016" layer="51" curve="-162.394521"/>
+<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
+<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
+<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
+<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
+<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
+<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
+<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
+<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
+<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
+<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
+<rectangle x1="-0.625" y1="0.925" x2="-0.3" y2="1" layer="51"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="0" y="0" size="1" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="2" y="0" size="1" layer="27" font="vector" rot="R90" align="center">&gt;VALUE</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4779,7 +4779,7 @@ Source: http://datasheets.maxim-ic.com/en/ds/MAX4335-MAX4338.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="ITead_rule-8mil *">
+<designrules name="2layer_0.2mm">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -4797,8 +4797,8 @@ design rules under a new name.</description>
 <description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
 </description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="0.2mm"/>
 <param name="mdWirePad" value="0.2mm"/>
 <param name="mdWireVia" value="0.2mm"/>
@@ -4810,8 +4810,8 @@ design rules under a new name.</description>
 <param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="10mil"/>
+<param name="mdCopperDimension" value="0.3mm"/>
+<param name="mdDrill" value="0.3mm"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="0.2mm"/>
 <param name="msDrill" value="0.3mm"/>
@@ -4845,15 +4845,15 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="2mil"/>
-<param name="mlMaxStopFrame" value="2mil"/>
+<param name="mlMinStopFrame" value="0.05mm"/>
+<param name="mlMaxStopFrame" value="0.05mm"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="100mil"/>
+<param name="mlViaStopLimit" value="2.5mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalIsolate" value="0.25mm"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
@@ -4961,24 +4961,24 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C6" library="rcl" package="C0603" value="10n" x="22.7" y="18" rot="R180"/>
-<element name="C17" library="rcl" package="C0603" value="100n" x="22.7" y="19.4"/>
-<element name="C14" library="rcl" package="C0603" value="100n" x="11.5" y="22.2"/>
-<element name="C4" library="rcl" package="C0603" value="100n" x="19.2" y="11.2" rot="R270"/>
-<element name="C5" library="rcl" package="C0805" value="4.7u" x="20.9" y="11.3" rot="R270"/>
-<element name="C3" library="rcl" package="C0603" value="100n" x="9.5" y="12.1" rot="R180"/>
-<element name="C7" library="rcl" package="C0603" value="100n" x="17.3" y="7.7" rot="R270"/>
-<element name="LED1" library="led" package="CHIPLED_0805" value="" x="12.5" y="3.8" rot="R180"/>
-<element name="R1" library="rcl" package="R0603" value="330" x="15.9" y="7.7" rot="R90"/>
-<element name="U$4" library="samtec" package="FTSH-105-TH" value="FTSH-105TH" x="1.7" y="16.8" rot="R270"/>
-<element name="J2" library="OPL Eagle Library" package="4P-2.0" value="GROVE-4P-2.0-3470130P1" x="19" y="3.2" rot="R180"/>
+<element name="C6" library="r2p_rcl" package="C0603" value="10n" x="22.7" y="18" rot="R180"/>
+<element name="C17" library="r2p_rcl" package="C0603" value="100n" x="22.7" y="19.4"/>
+<element name="C14" library="r2p_rcl" package="C0603" value="100n" x="11.5" y="22.2"/>
+<element name="C4" library="r2p_rcl" package="C0603" value="100n" x="19.2" y="11.2" rot="R270"/>
+<element name="C5" library="r2p_rcl" package="C0805" value="4.7u" x="20.9" y="11.3" rot="R270"/>
+<element name="C3" library="r2p_rcl" package="C0603" value="100n" x="9.5" y="12.1" rot="R180"/>
+<element name="C7" library="r2p_rcl" package="C0603" value="100n" x="17.3" y="7.7" rot="R270"/>
+<element name="LED1" library="r2p_led" package="CHIPLED_0805" value="LED0805" x="12.5" y="3.8" rot="R180"/>
+<element name="R1" library="r2p_rcl" package="R0603" value="330" x="15.9" y="7.7" rot="R90"/>
+<element name="U$4" library="r2p_connector" package="SAMTEC_FTSH-105-TH" value="JTAG-TH" x="1.7" y="16.8" rot="R270"/>
+<element name="J2" library="r2p_connector" package="OPL-EAGLE-LIBRARY_4P-2.0" value="R2P_BUS-VERTICAL" x="19" y="3.2" rot="R180"/>
 <element name="U$2" library="coilcraft" package="LPS4018" value="LPS4018" x="11.2" y="8.7" rot="R90"/>
-<element name="C1" library="rcl" package="C1206" value="1u" x="4.1" y="8.9" rot="R90"/>
-<element name="C2" library="rcl" package="C0603" value="1u" x="5.7" y="12.1"/>
-<element name="C8" library="rcl" package="C0603" value="10n" x="14.5" y="7.7" rot="R90"/>
-<element name="C9" library="rcl" package="C0805" value="10uF" x="7.1" y="10.4" rot="R180"/>
+<element name="C1" library="r2p_rcl" package="C1206" value="1u" x="4.1" y="8.9" rot="R90"/>
+<element name="C2" library="r2p_rcl" package="C0603" value="1u" x="5.7" y="12.1"/>
+<element name="C8" library="r2p_rcl" package="C0603" value="10n" x="14.5" y="7.7" rot="R90"/>
+<element name="C9" library="r2p_rcl" package="C0805" value="10uF" x="7.1" y="10.4" rot="R180"/>
 <element name="U$3" library="r2p_ic" package="TDFN-10" value="MAX17501" x="7.1" y="7.7"/>
-<element name="J1" library="OPL Eagle Library" package="4P-2.0" value="GROVE-4P-2.0-3470130P1" x="6" y="3.2" rot="R180"/>
+<element name="J1" library="r2p_connector" package="OPL-EAGLE-LIBRARY_4P-2.0" value="R2P_BUS-VERTICAL" x="6" y="3.2" rot="R180"/>
 <element name="U$6" library="st" package="LQFP48" value="STM32F303C" x="14.8" y="16.5" rot="R180"/>
 <element name="SOT1" library="r2p_ic" package="SOT23-8L" value="MAX3051EKA" x="19.9" y="7.7" rot="R180"/>
 <element name="U$1" library="r2p_pcb" package="25X45" value="PCB_25X45" x="0" y="0"/>
@@ -4998,19 +4998,19 @@ design rules under a new name.</description>
 </element>
 <element name="C10" library="rcl" package="PANASONIC_D" value="" x="4" y="28.3" rot="R270"/>
 <element name="D1" library="nxp" package="SC70" value="BAV99W" x="10.3" y="35.5"/>
-<element name="C11" library="rcl" package="C0603" value="100n" x="12.2" y="35.5" rot="R270"/>
-<element name="C13" library="rcl" package="C0603" value="100n" x="11.5" y="23.6"/>
-<element name="C15" library="rcl" package="C0805" value="10u" x="7.1" y="22.4" rot="R180"/>
+<element name="C11" library="r2p_rcl" package="C0603" value="100n" x="12.2" y="35.5" rot="R270"/>
+<element name="C13" library="r2p_rcl" package="C0603" value="100n" x="11.5" y="23.6"/>
+<element name="C15" library="r2p_rcl" package="C0805" value="10u" x="7.1" y="22.4" rot="R180"/>
 <element name="U$8" library="microchip" package="SC70-6L" value="MCP4017" x="22.7" y="23.4" rot="R90"/>
-<element name="R2" library="rcl" package="R0603" value="330" x="17.8" y="22.2" rot="R180"/>
-<element name="R3" library="rcl" package="R0603" value="330" x="14.4" y="34.8"/>
-<element name="C16" library="rcl" package="C0603" value="100n" x="10.3" y="33.3" rot="R180"/>
-<element name="C18" library="rcl" package="C0603" value="100n" x="14.4" y="36.2" rot="R180"/>
+<element name="R2" library="r2p_rcl" package="R0603" value="330" x="17.8" y="22.2" rot="R180"/>
+<element name="R3" library="r2p_rcl" package="R0603" value="330" x="14.4" y="34.8"/>
+<element name="C16" library="r2p_rcl" package="C0603" value="100n" x="10.3" y="33.3" rot="R180"/>
+<element name="C18" library="r2p_rcl" package="C0603" value="100n" x="14.4" y="36.2" rot="R180"/>
 <element name="ZD1" library="dp_devices" package="SOD-323F" value="" x="14.4" y="33.3" rot="R180"/>
-<element name="R4" library="rcl" package="R0603" value="4k7" x="23.5" y="26.7" rot="R90"/>
-<element name="R5" library="rcl" package="R0603" value="4k7" x="22" y="26.7" rot="R90"/>
-<element name="C12" library="rcl" package="C0603" value="100n" x="7.1" y="24.1"/>
-<element name="C19" library="rcl" package="C0603" value="100n" x="17.8" y="23.6" rot="R180"/>
+<element name="R4" library="r2p_rcl" package="R0603" value="4k7" x="23.5" y="26.7" rot="R90"/>
+<element name="R5" library="r2p_rcl" package="R0603" value="4k7" x="22" y="26.7" rot="R90"/>
+<element name="C12" library="r2p_rcl" package="C0603" value="100n" x="7.1" y="24.1"/>
+<element name="C19" library="r2p_rcl" package="C0603" value="100n" x="17.8" y="23.6" rot="R180"/>
 <element name="X4" library="con-molex" package="53047-04" value="53047-04" x="20.7" y="42.9">
 <attribute name="OC_NEWARK" value="38C9900" x="20.7" y="42.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="53047-0410" x="20.7" y="42.9" size="1.778" layer="27" display="off"/>
@@ -5023,7 +5023,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="WALDOM/MOLEX" x="20.7" y="39.5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9733060" x="20.7" y="39.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C20" library="rcl" package="C0603" value="100n" x="22.7" y="21.5" rot="R180"/>
+<element name="C20" library="r2p_rcl" package="C0603" value="100n" x="22.7" y="21.5" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5968,6 +5968,17 @@ design rules under a new name.</description>
 <approved hash="7,39,55ec05f9bcbd974c"/>
 <approved hash="7,39,2894e6db66dca893"/>
 <approved hash="7,39,7c423a0fba0ffc42"/>
+<approved hash="7,39,5c0a9ec91ecfdc0c"/>
+<approved hash="7,39,a2ed64a0e4a122ec"/>
+<approved hash="7,39,24ef57f2033754d0"/>
+<approved hash="7,39,7e6e041404327e48"/>
+<approved hash="7,39,e6198d47025e4dfa"/>
+<approved hash="7,39,3a1293a960ba33e5"/>
+<approved hash="7,39,408e04f40304477e"/>
+<approved hash="7,39,3d1a8ac679dd341d"/>
+<approved hash="7,39,b60d91f16260259a"/>
+<approved hash="7,39,6835a57b257ce832"/>
+<approved hash="7,39,6022256fa56fe022"/>
 </errors>
 </board>
 </drawing>
